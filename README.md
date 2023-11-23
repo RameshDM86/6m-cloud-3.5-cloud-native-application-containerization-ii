@@ -38,21 +38,30 @@ This repository demonstrates how to create a Docker image and deploy it to Amazo
 <b> Run the AWS CLI command to authenticate Docker with your ECR registry: </b>
 <b> bash command  </b>
 <b> Copy code  </b>
-<code> aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com
-Create a Repository in ECR: </code>
+<code> aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com </code>
+
+Create a Repository in ECR: 
 
 <b> If not already created, create an ECR repository using AWS Management Console or AWS CLI. </b>
+
 <b> Tag the Docker Image: </b>
 
 <b> Tag your locally built Docker image with the ECR repository URI: </b>
+
 <b> bash command </b>
+
 <b> Copy code </b>
+
 <code> docker tag your-image-name:tag your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </code>
+
 <b> Push the Docker Image to ECR: </b>
 
 <b> Push the Docker image to your ECR repository: </b>
+
 <b> bash command </b>
+
 <b> Copy code </b>
+
 <code> docker push your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </code>
 
 <b>Verify the Image in ECR:</b>
