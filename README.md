@@ -38,7 +38,7 @@
 
 <b>If not already created, create an ECR repository using AWS Management Console or AWS CLI.</b>
 
-<b>Tag your locally built Docker image with the ECR repository URI:</b>
+<b>Tag your locally built Docker image with the ECR repository URL:</b>
 
 <code>docker tag ramesh_ecr:latest 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest </code>
 
