@@ -1,7 +1,8 @@
 # 6m-cloud-3.5-cloud-native-application-containerization-ii
 
 ### Docker Image Deployment to AWS ECR ### 
-_ Prerequisites: _
+
+### <u>Prerequisites:</u>
 
  **Docker installed locally.**
 
