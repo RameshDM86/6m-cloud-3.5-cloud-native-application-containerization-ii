@@ -1,8 +1,8 @@
 # 6m-cloud-3.5-cloud-native-application-containerization-ii
-
+*Prerequisites:Docker installed locally.
 ### Docker Image Deployment to AWS ECR ### 
 
-### Prerequisites:Docker installed locally.
+
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
 
@@ -14,7 +14,7 @@
 
 <b>Use the command on AWS CLI/Ternimal in visual studio:</b>
 
-**<code> aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com </code>**
+<code> aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com </code>
 
 <b>Clone the Repository:</b>
 
@@ -27,7 +27,7 @@
 
 <b> Insert bash command </b>
 
-<code> docker build -t ramesh_ecr . </code> 
+<code>docker build -t ramesh_ecr .</code> 
 
 <b> Authenticate Docker to ECR: </b>
 
