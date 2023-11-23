@@ -1,9 +1,9 @@
 # 6m-cloud-3.5-cloud-native-application-containerization-ii
 
-** Docker Image Deployment to AWS ECR ** 
+## Docker Image Deployment to AWS ECR ## 
 This repository demonstrates how to create a Docker image and deploy it to Amazon Elastic Container Registry (ECR).
 
-Prerequisites:
+**Prerequisites:
 
 Docker installed locally.
 
