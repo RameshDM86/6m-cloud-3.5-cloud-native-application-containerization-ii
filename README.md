@@ -54,6 +54,7 @@ Create a Repository in ECR: </code>
 <b> bash command </b>
 <b> Copy code </b>
 <code> docker push your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </code>
-Verify the Image in ECR:
 
-Check the AWS Management Console or use AWS CLI to confirm the successful image push to your ECR repository.
+<b>Verify the Image in ECR:</b>
+
+<b>Check the AWS Management Console or use AWS CLI to confirm the successful image push to your ECR repository.</b>
