@@ -1,9 +1,9 @@
 # 6m-cloud-3.5-cloud-native-application-containerization-ii
 
 ### Docker Image Deployment to AWS ECR ### 
-_Prerequisites:_
+_Prerequisites:
 
- _**Docker installed locally.**
+ **Docker installed locally.**
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
 <b>Steps:</b>
@@ -34,25 +34,23 @@ _Prerequisites:_
 
 <b> Insert bash command  </b>
 
-<code> aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com </code>
+<code>aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com</code>
 
 Create a Repository in ECR: 
 
-<b> If not already created, create an ECR repository using AWS Management Console or AWS CLI. </b>
-
-<b> Tag the Docker Image: </b>
+<b>If not already created, create an ECR repository using AWS Management Console or AWS CLI.</b>
 
 <b> Tag your locally built Docker image with the ECR repository URI: </b>
 
 <b> Insert following bash command </b>
 
-<code> docker tag ramesh_ecr:latest 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest </code>
+<code>docker tag ramesh_ecr:latest 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest </code>
 
-<b> Push the Docker image to your ECR repository: </b>
+<b>Push the Docker image to your ECR repository: </b>
 
-<b> Insert bash command </b>
+<b>Insert bash command </b>
 
-<code> docker push 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest  </code>
+<code>docker push 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest  </code>
 
 **Verify the Image in AWS ECR:**
 
