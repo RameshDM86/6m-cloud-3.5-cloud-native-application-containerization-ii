@@ -4,7 +4,7 @@
 
  _<b>Prerequisites:Docker installed locally </b>
 
-   _<b>AWS CLI configured with appropriate permissions to access ECR.</b>
+     <b>AWS CLI configured with appropriate permissions to access ECR.</b>
 
 <img width="707" alt="Untitled" src="https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii/assets/137069406/17f03905-5e2d-449d-95a0-7e5f4ea66a99">
 
