@@ -1,14 +1,11 @@
 # 6m-cloud-3.5-cloud-native-application-containerization-ii
 
 ## Docker Image Deployment to AWS ECR ## 
-This repository demonstrates how to create a Docker image and deploy it to Amazon Elastic Container Registry (ECR).
-
 <div>Prerequisites:</div>
 
 **Docker installed locally.**
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
-
 <b>Steps:</b>
 
 Retrieve an authentication token and authenticate your Docker client to your registry.
@@ -18,10 +15,9 @@ Use the AWS CLI:
 
 <b>Clone the Repository:</b>
 
-<b> Insert bash command </b> 
+<b> Insert Following bash command </b> 
 
-<code> git clone <url>https://github.com/your-username/your-repo.git </url></code>
-
+<code> git clone <url>https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii.git</url></code>
 <b> cd into your-repo </b>
 
 <b> Create a Dockerfile in your project directory specifying your image configuration. </b>
