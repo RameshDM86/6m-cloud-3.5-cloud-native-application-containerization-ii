@@ -5,7 +5,7 @@ This repository demonstrates how to create a Docker image and deploy it to Amazo
 
 <div>Prerequisites:</div>
 
-<p>Docker installed locally.</p>
+**Docker installed locally.**
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
 
