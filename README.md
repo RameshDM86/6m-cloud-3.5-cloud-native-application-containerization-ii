@@ -37,13 +37,13 @@
 
 <code>aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com</code>
 
-Create a Repository in ECR: 
+<b>Create a Repository in ECR:</b> 
 
 <b>If not already created, create an ECR repository using AWS Management Console or AWS CLI.</b>
 
-<b> Tag your locally built Docker image with the ECR repository URI: </b>
+<b>Tag your locally built Docker image with the ECR repository URI:</b>
 
-<b> Insert following bash command </b>
+<b>Insert following bash command</b>
 
 <code>docker tag ramesh_ecr:latest 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest </code>
 
@@ -51,6 +51,6 @@ Create a Repository in ECR:
 
 <code>docker push 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest</code>
 
-**Verify the Image in AWS ECR:**
+<b>Verify the Image in AWS ECR:</b>
 
 <b>Check the AWS Management Console or use AWS CLI to confirm the successful image push to your ECR repository.</b>
