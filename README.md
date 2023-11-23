@@ -7,12 +7,14 @@
  **Docker installed locally.**
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
-![image](https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii/assets/137069406/c7d0afa3-49c5-40e2-9e51-4613ca5f5f1d)
+
+<img width="960" alt="ramesh_pcr" src="https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii/assets/137069406/4d670d58-8ece-4590-9963-de6119247267">
+
 
 <b>Steps:</b>
 
 <b>Retrieve an authentication token and authenticate your Docker client to your registry.</b>
-<b>Use the AWS CLI:</b>
+<b>Use the command on AWS CLI/Ternimal in visual studio:</b>
 
 **<code> aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com </code>**
 
