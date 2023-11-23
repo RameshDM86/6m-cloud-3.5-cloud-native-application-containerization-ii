@@ -11,7 +11,8 @@
 <b>Retrieve an authentication token and authenticate your Docker client to your registry.</b>
 <b>Use the AWS CLI:</b>
 
-<b><code> aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com </code></b>
+**<code> aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com </code>**
+
 <b>Clone the Repository:</b>
 
 <b> Insert Following bash command </b> 
