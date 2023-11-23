@@ -1,8 +1,8 @@
-# 6m-cloud-3.5-cloud-native-application-containerization-ii
-*Prerequisites:Docker installed locally.*
-### Docker Image Deployment to AWS ECR ### 
+## 6m-cloud-3.5-cloud-native-application-containerization-ii
 
+### Docker Image Deployment to AWS ECR 
 
+<b>Prerequisites:Docker installed locally </b>
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
 
@@ -47,11 +47,9 @@ Create a Repository in ECR:
 
 <code>docker tag ramesh_ecr:latest 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest </code>
 
-<b>Push the Docker image to your ECR repository: </b>
+<b>Push the Docker image to your ECR repository with following bash command</b>
 
-<b>Insert bash command </b>
-
-<code>docker push 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest  </code>
+<code>docker push 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest</code>
 
 **Verify the Image in AWS ECR:**
 
