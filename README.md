@@ -17,7 +17,7 @@ This repository demonstrates how to create a Docker image and deploy it to Amazo
 
 <b> Copy code </b>
 
-<b> git clone <url>https://github.com/your-username/your-repo.git </url></b>
+<code> git clone <url>https://github.com/your-username/your-repo.git </url></code>
 
 <b> cd your-repo </b>
 
@@ -31,15 +31,15 @@ This repository demonstrates how to create a Docker image and deploy it to Amazo
 
 <b> Copy code </b>
 
-<b> docker build -t your-image-name . </b> 
+<code> docker build -t your-image-name . </code> 
 
 <b> Authenticate Docker to ECR: </b>
 
 <b> Run the AWS CLI command to authenticate Docker with your ECR registry: </b>
 <b> bash command  </b>
 <b> Copy code  </b>
-<b> aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com
-Create a Repository in ECR: </b>
+<code> aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com
+Create a Repository in ECR: </code>
 
 <b> If not already created, create an ECR repository using AWS Management Console or AWS CLI. </b>
 <b> Tag the Docker Image: </b>
@@ -47,13 +47,13 @@ Create a Repository in ECR: </b>
 <b> Tag your locally built Docker image with the ECR repository URI: </b>
 <b> bash command </b>
 <b> Copy code </b>
-<b> docker tag your-image-name:tag your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </b>
+<code> docker tag your-image-name:tag your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </code>
 <b> Push the Docker Image to ECR: </b>
 
 <b> Push the Docker image to your ECR repository: </b>
 <b> bash command </b>
 <b> Copy code </b>
-docker push your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag
+<code> docker push your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </code>
 Verify the Image in ECR:
 
 Check the AWS Management Console or use AWS CLI to confirm the successful image push to your ECR repository.
