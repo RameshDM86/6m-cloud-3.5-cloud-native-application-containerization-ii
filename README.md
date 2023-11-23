@@ -8,12 +8,12 @@
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
 
-<img width="960" alt="ramesh_pcr" src="https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii/assets/137069406/4d670d58-8ece-4590-9963-de6119247267">
-
+<img width="707" alt="Untitled" src="https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii/assets/137069406/17f03905-5e2d-449d-95a0-7e5f4ea66a99">
 
 <b>Steps:</b>
 
 <b>Retrieve an authentication token and authenticate your Docker client to your registry.</b>
+
 <b>Use the command on AWS CLI/Ternimal in visual studio:</b>
 
 **<code> aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com </code>**
@@ -25,9 +25,7 @@
 <b><code> git clone <url>https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii.git</url></code></b>
 <b> cd into your-repo </b>
 
-<b> Create a Dockerfile in your project directory specifying your image configuration. </b>
-
-<b> Build the Docker image locally: </b>
+<b> Create a Dockerfile in your project directory specifying your image configuration. <b> Build the Docker image locally: </b> </b>
 
 <b> Insert bash command </b>
 
