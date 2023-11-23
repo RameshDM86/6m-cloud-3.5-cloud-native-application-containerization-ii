@@ -3,7 +3,7 @@
 ## Docker Image Deployment to AWS ECR ## 
 This repository demonstrates how to create a Docker image and deploy it to Amazon Elastic Container Registry (ECR).
 
-**Prerequisites:
+<div>Prerequisites:</div>
 
 Docker installed locally.
 
