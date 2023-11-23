@@ -2,11 +2,13 @@
 
 ### Docker Image Deployment to AWS ECR ### 
 
-### <u>Prerequisites:</u>
+### <u>Prerequisites:
 
  **Docker installed locally.**
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
+![image](https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii/assets/137069406/c7d0afa3-49c5-40e2-9e51-4613ca5f5f1d)
+
 <b>Steps:</b>
 
 <b>Retrieve an authentication token and authenticate your Docker client to your registry.</b>
