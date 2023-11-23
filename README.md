@@ -14,13 +14,12 @@
 
 <b>Use the command on AWS CLI/Ternimal in visual studio:</b>
 
-<code> aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com </code>
+<code>aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com</code>
 
-<b>Clone the Repository:</b>
-
-<b> Insert Following bash command </b> 
+<b>Clone the Repository with bash command:</b> 
 
 <b><code> git clone <url>https://github.com/RameshDM86/6m-cloud-3.5-cloud-native-application-containerization-ii.git</url></code></b>
+
 <b> cd into your-repo </b>
 
 <b> Create a Dockerfile in your project directory specifying your image configuration. <b> Build the Docker image locally: </b> </b>
@@ -33,7 +32,7 @@
 
 <b> Run the AWS CLI command to authenticate Docker with your ECR registry: </b>
 
-<b> Insert bash command  </b>
+<b>Insert bash command </b>
 
 <code>aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com</code>
 
