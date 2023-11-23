@@ -17,7 +17,7 @@ This repository demonstrates how to create a Docker image and deploy it to Amazo
 
 <b> Copy code </b>
 
-<b> git clone https://github.com/your-username/your-repo.git </b>
+<b> git clone <url>https://github.com/your-username/your-repo.git </url></b>
 
 <b> cd your-repo </b>
 
