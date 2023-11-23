@@ -44,10 +44,9 @@ Create a Repository in ECR:
 
 <b> Tag your locally built Docker image with the ECR repository URI: </b>
 
-<b> bash command </b>
+<b> Insert following bash command </b>
 
 <code> docker tag ramesh_ecr:latest 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest </code>
-
 
 <b> Push the Docker image to your ECR repository: </b>
 
@@ -55,6 +54,6 @@ Create a Repository in ECR:
 
 <code> docker push 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest  </code>
 
-<b>Verify the Image in AWS ECR:</b>
+**Verify the Image in AWS ECR:**
 
 <b>Check the AWS Management Console or use AWS CLI to confirm the successful image push to your ECR repository.</b>
