@@ -4,22 +4,35 @@ Docker Image Deployment to AWS ECR
 This repository demonstrates how to create a Docker image and deploy it to Amazon Elastic Container Registry (ECR).
 
 Prerequisites:
+
 Docker installed locally.
+
 AWS CLI configured with appropriate permissions to access ECR.
+
 Steps:
+
 Clone the Repository:
 
 bash
+
 Copy code
+
 git clone https://github.com/your-username/your-repo.git
+
 cd your-repo
+
 Build the Docker Image:
 
 Create a Dockerfile in your project directory specifying your image configuration.
+
 Build the Docker image locally:
+
 bash
+
 Copy code
+
 docker build -t your-image-name .
+
 Authenticate Docker to ECR:
 
 Run the AWS CLI command to authenticate Docker with your ECR registry:
