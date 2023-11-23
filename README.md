@@ -18,31 +18,26 @@ Use the AWS CLI:
 
 <b>Clone the Repository:</b>
 
-<b> bash command </b>
-
-<b> Copy code </b>
+<b> Insert bash command </b> 
 
 <code> git clone <url>https://github.com/your-username/your-repo.git </url></code>
 
-<b> cd your-repo </b>
-
-<b> Build the Docker Image: </b>
+<b> cd into your-repo </b>
 
 <b> Create a Dockerfile in your project directory specifying your image configuration. </b>
 
 <b> Build the Docker image locally: </b>
 
-<b> bash command </b>
+<b> Insert bash command </b>
 
-<b> Copy code </b>
-
-<code> docker build -t your-image-name . </code> 
+<code> docker build -t ramesh_ecr . </code> 
 
 <b> Authenticate Docker to ECR: </b>
 
 <b> Run the AWS CLI command to authenticate Docker with your ECR registry: </b>
-<b> bash command  </b>
-<b> Copy code  </b>
+
+<b> Insert bash command  </b>
+
 <code> aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com </code>
 
 Create a Repository in ECR: 
@@ -55,20 +50,15 @@ Create a Repository in ECR:
 
 <b> bash command </b>
 
-<b> Copy code </b>
+<code> docker tag ramesh_ecr:latest 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest </code>
 
-<code> docker tag your-image-name:tag your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </code>
-
-<b> Push the Docker Image to ECR: </b>
 
 <b> Push the Docker image to your ECR repository: </b>
 
-<b> bash command </b>
+<b> Insert bash command </b>
 
-<b> Copy code </b>
+<code> docker push 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest  </code>
 
-<code> docker push your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </code>
-
-<b>Verify the Image in ECR:</b>
+<b>Verify the Image in AWS ECR:</b>
 
 <b>Check the AWS Management Console or use AWS CLI to confirm the successful image push to your ECR repository.</b>
