@@ -2,9 +2,7 @@
 
 ### Docker Image Deployment to AWS ECR ### 
 
-### <u>Prerequisites:
-
- **Docker installed locally.**
+### Prerequisites:Docker installed locally.
 
 <b>AWS CLI configured with appropriate permissions to access ECR.</b>
 
