@@ -40,8 +40,6 @@
 
 <b>Tag your locally built Docker image with the ECR repository URI:</b>
 
-<b>Insert following bash command</b>
-
 <code>docker tag ramesh_ecr:latest 255945442255.dkr.ecr.us-east-1.amazonaws.com/ramesh_ecr:latest </code>
 
 <b>Push the Docker image to your ECR repository with following bash command</b>
