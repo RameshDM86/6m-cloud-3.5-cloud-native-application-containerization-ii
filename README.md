@@ -22,17 +22,15 @@
 
 <b> cd into your-repo </b>
 
-<b> Create a Dockerfile in your project directory specifying your image configuration. <b> Build the Docker image locally: </b> </b>
+<b> Create a Dockerfile in your project directory specifying your image configuration. 
 
-<b> Insert bash command </b>
+<b> Build the Docker image locally: with bash command </b>
 
 <code>docker build -t ramesh_ecr .</code> 
 
 <b> Authenticate Docker to ECR: </b>
 
-<b> Run the AWS CLI command to authenticate Docker with your ECR registry: </b>
-
-<b>Insert bash command </b>
+<b>Run the AWS CLI command to authenticate Docker with your ECR registry: </b>
 
 <code>aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com</code>
 
