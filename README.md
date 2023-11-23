@@ -13,46 +13,46 @@ This repository demonstrates how to create a Docker image and deploy it to Amazo
 
 <b>Clone the Repository:</b>
 
-bash
+<b> bash command </b>
 
-Copy code
+<b> Copy code </b>
 
-git clone https://github.com/your-username/your-repo.git
+<b> git clone https://github.com/your-username/your-repo.git </b>
 
-cd your-repo
+<b> cd your-repo </b>
 
-Build the Docker Image:
+<b> Build the Docker Image: </b>
 
-Create a Dockerfile in your project directory specifying your image configuration.
+<b> Create a Dockerfile in your project directory specifying your image configuration. </b>
 
-Build the Docker image locally:
+<b> Build the Docker image locally: </b>
 
-bash
+<b> bash command </b>
 
-Copy code
+<b> Copy code </b>
 
-docker build -t your-image-name .
+<b> docker build -t your-image-name . </b> 
 
-Authenticate Docker to ECR:
+<b> Authenticate Docker to ECR: </b>
 
-Run the AWS CLI command to authenticate Docker with your ECR registry:
-bash
-Copy code
-aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com
-Create a Repository in ECR:
+<b> Run the AWS CLI command to authenticate Docker with your ECR registry: </b>
+<b> bash command  </b>
+<b> Copy code  </b>
+<b> aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your-account-id.dkr.ecr.your-region.amazonaws.com
+Create a Repository in ECR: </b>
 
-If not already created, create an ECR repository using AWS Management Console or AWS CLI.
-Tag the Docker Image:
+<b> If not already created, create an ECR repository using AWS Management Console or AWS CLI. </b>
+<b> Tag the Docker Image: </b>
 
-Tag your locally built Docker image with the ECR repository URI:
-bash
-Copy code
-docker tag your-image-name:tag your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag
-Push the Docker Image to ECR:
+<b> Tag your locally built Docker image with the ECR repository URI: </b>
+<b> bash command </b>
+<b> Copy code </b>
+<b> docker tag your-image-name:tag your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag </b>
+<b> Push the Docker Image to ECR: </b>
 
-Push the Docker image to your ECR repository:
-bash
-Copy code
+<b> Push the Docker image to your ECR repository: </b>
+<b> bash command </b>
+<b> Copy code </b>
 docker push your-account-id.dkr.ecr.your-region.amazonaws.com/repository-name:tag
 Verify the Image in ECR:
 
